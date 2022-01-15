@@ -1,0 +1,70 @@
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.character {
+    width: 40%;
+    margin: 1%;
+    border: 1px;
+    text-align:justify;
+}
+
+.info-character {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.character img {
+    width: 70%;
+    border-radius: 3%;
+}
+
+footer {
+    background-color: mediumseagreen;
+    color: black;
+    height: 10%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    width: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border: 2px;
+}
+
+.elemnt-form {
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.label {
+    width: 90%;
+    height: 10%;
+}
+
+.elemnt-form input {
+    width: 70%;
+    height: 70px;
+}
+
+.btn-article button {
+    background-color: orangered;
+    border: 5px limegreen;
+    border-radius: 2px;
+    color: linen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

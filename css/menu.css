@@ -1,0 +1,40 @@
+
+nav {
+
+    background-color: indigo;
+    color: lightskyblue;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    width: 10%;
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: red;
+    border: 3px;
+    border-radius: 2px;
+}
+
+.logo {
+    flex-grow: 3;
+
+}
+
+.logo img {
+    width: 20%;
+    padding: 1% 2% 1% 5%;
+}
+
